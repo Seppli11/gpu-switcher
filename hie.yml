@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "gpu-switcher:lib"
+
+    - path: "./app/Main.hs"
+      component: "gpu-switcher:exe:gpu-switcher-exe"
+
+    - path: "./app/Paths_gpu_switcher.hs"
+      component: "gpu-switcher:exe:gpu-switcher-exe"
+
+    - path: "./test"
+      component: "gpu-switcher:test:gpu-switcher-test"
